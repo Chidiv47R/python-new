@@ -45,6 +45,7 @@ btn9=Button(cal,padx=16,bd=8, fg="black",font=('arial',20,'bold'), text="9",comm
 Addition=Button(cal,padx=16,bd=8, fg="black",font=('arial',20,'bold'), text="+",command=lambda:btnClick("+")).grid(row=1,column=3)
 
 #============================================================== row one above
+#===the following 4 rows defines button 4,5,6,and -, and also gives the buttons dimension font colour and position on the 4x4 display row 2
 
 btn4=Button(cal,padx=16,bd=8, fg="black",font=('arial',20,'bold'), text="4",command=lambda:btnClick(4)).grid(row=2,column=0)
 
@@ -55,6 +56,7 @@ btn6=Button(cal,padx=16,bd=8, fg="black",font=('arial',20,'bold'), text="6",comm
 Subtration=Button(cal,padx=16,bd=8, fg="black",font=('arial',20,'bold'), text="-",command=lambda:btnClick("-")).grid(row=2,column=3)
 
 #============================================================================= row two above
+#===the following 4 rows defines button 1,2,3,and *, and also gives the buttons dimension font colour and position on the 4x4 display row 3
 
 btn1=Button(cal,padx=16,bd=8, fg="black",font=('arial',20,'bold'), text="1",command=lambda:btnClick(1)).grid(row=3,column=0)
 
@@ -65,6 +67,7 @@ btn3=Button(cal,padx=16,bd=8, fg="black",font=('arial',20,'bold'), text="3",comm
 Multiplication=Button(cal,padx=16,bd=8, fg="black",font=('arial',20,'bold'), text="*",command=lambda:btnClick("*")).grid(row=3,column=3)
 
 #============================================================================================= row three above
+#===the following 4 rows defines button 0,C,=,and /, and also gives the buttons dimension font colour and position on the 4x4 display row 4
     
 btn0=Button(cal,padx=16,pady=16,bd=8, fg="black",font=('arial',20,'bold'), text="0",command=lambda:btnClick(0)).grid(row=4,column=0)
 
