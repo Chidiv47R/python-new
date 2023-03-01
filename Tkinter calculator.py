@@ -1,4 +1,4 @@
-#the calculator endeavour,utiva simple calculator
+#the calculator endeavour, simple calculator
 from tkinter import*
 #first import * from tkinter as shown above
 ##then define the buttons
